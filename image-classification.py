@@ -119,3 +119,12 @@ COCO17_HUMAN_POSE_KEYPOINTS = [(0, 1),
  (13, 15),
  (12, 14),
  (14, 16)]
+
+!git clone --depth 1 https://github.com/tensorflow/models
+
+from object_detection.utils import label_map_util
+from object_detection.utils import visualization_utils as viz_utils
+from object_detection.utils import ops as utils_ops
+
+%matplotlib inline
+
